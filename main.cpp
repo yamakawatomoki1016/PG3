@@ -18,9 +18,9 @@ char Min<char>(char a, char b) {
     return 0;
 }
 int main() {
-    Min<int, float>(200, 201.0f);
-    Min<char, char>(200, 201.0f);
-    Min<int, double>(200, 201.0);
-    Min<double, float>(2.0, 2.1f);
+   Min<int, float>(5, 6.0f);
+   Min<char, char>('a', 'b');
+   Min<int, double>(5, 6.0f);
+   Min<double, float>(5.0, 6.0f);
     return 0;
 }
