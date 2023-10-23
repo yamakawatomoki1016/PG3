@@ -1,7 +1,7 @@
 ﻿#include <stdio.h>
 #include <iostream>
-template<typename TYPE1, typename TYPE2>
 
+template<typename TYPE1, typename TYPE2>
 TYPE1 Min(TYPE1 a, TYPE2 b) {
     if (a >= b) {
         std::cout << a << std::endl;
